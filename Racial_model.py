@@ -273,7 +273,13 @@ for fs_method in racial_fs_methods:
                     y_true = test_data[CLASS_NAME]
                     X_other = test_data[i].copy()
 
-                    pred = fitted_model.predict(X_other)
+                    X_other_scaled = pd.DataFrame(
+                        scaler.transform(X_other),
+                        columns=i,
+                        index=X_other.index
+                    )
+
+                    pred = fitted_model.predict(X_other_scaled)
 
                     output_f1mi[f"{main}_{name_k}_{model_name}"].append(f1_score(y_true, pred, average="micro"))
                     output_f1ma[f"{main}_{name_k}_{model_name}"].append(f1_score(y_true, pred, average="macro"))
