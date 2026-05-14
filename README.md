@@ -91,9 +91,7 @@ This project uses data from the Health and Aging Brain Study - Health Disparitie
 
 The dataset is not publicly distributed through this repository due to participant privacy and clinical data access restrictions.
 
-Researchers interested in accessing HABS-HD data can request access through the official study or data coordinating center: https://apps.unthsc.edu/itr/data
-
-Please refer to the official HABS-HD website or contact the study administrators for the latest data access policies and application procedures.
+Researchers interested in accessing HABS-HD data can request access through official HABS-HD website or contact the study administrators for the latest data access policies and application procedures. https://apps.unthsc.edu/itr/data
 
 ## Evaluation Metrics
 
