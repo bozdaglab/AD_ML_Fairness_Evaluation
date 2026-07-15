@@ -16,7 +16,7 @@ The main hypothesis is that models trained on a single racial or ethnic group pe
 
 The full experimental workflow is shown below.
 
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](Architecture.png)
 
 The architecture contains four experimental scenarios:
 
