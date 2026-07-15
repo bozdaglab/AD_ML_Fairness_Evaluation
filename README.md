@@ -2,6 +2,8 @@
 
 This repository contains the code, and architecture figure for a machine learning study evaluating racial fairness and generalizability in Alzheimer’s disease diagnosis models. The project investigates whether models trained on one racial or ethnic group generalize well to other groups, and whether fairness-aware preprocessing and in-processing strategies can reduce prediction bias.
 
+📄 **Preprint:** [Read the full manuscript on bioRxiv](https://www.biorxiv.org/content/10.1101/2025.09.30.678854v1.full)
+
 ## Project Overview
 
 Alzheimer’s disease diagnosis models can perform differently across racial and ethnic groups when training data is imbalanced or not diverse. This project uses the HABS-HD dataset to evaluate model performance and fairness across three groups:
